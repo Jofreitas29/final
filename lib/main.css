@@ -32,8 +32,7 @@ html {
     background-color:#ffc506;
     position: fixed;
     padding-left: 30rem;
-    border-radius: 8px;
-    
+
 }
 
 .logo {
@@ -52,10 +51,9 @@ html {
 }
 
 .logo img {
-    margin-left: -300px;
     width: 80%;
-    height: 80%;
-    max-width: 50px;
+    height: 100%;
+
 }
 
 .content .list-menu {
@@ -353,16 +351,7 @@ footer {
     justify-content: center;
 }
 
-@media screen and (max-width: 1200px) and (max-width: 980px ) {
-
-    html {
-        font-size: 50%;
-    }
-
-    .logo img{
-        padding: auto;
-
-    }
+@media screen and (max-width: 1200px) {
     .main {
         display: block;
         
@@ -374,15 +363,20 @@ footer {
         height: 12%;
         padding-left: 0;
     }
-
     .sobre-nos img {
         width: 600px;
         margin-left: -2px;
     }
     
 }
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 50%;
+    }
+}
 
 @media screen and (max-width: 768px) {
+
     html {
         font-size: 45%;
     }
