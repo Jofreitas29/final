@@ -59,16 +59,14 @@ html {
 }
 
 .content .list-menu {
-    margin-right: -500px;
-
-    width: 500px;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-.content .list-menu li a{
+.content .list-menu li a {
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 1rem;
@@ -84,7 +82,7 @@ html {
 
 .content .list-menu li a:hover{
     background-color: #df3213;
-    border-bottom: 4px solid #682803 ;  
+    border-bottom: 4px solid #ffc506 ;  
     color: #ffc506;
     border-radius: 6px;
 }
@@ -124,7 +122,6 @@ html {
     color: rgb(253, 252, 177);
     font-size: 2.5rem;
     font-weight: 700;
-    text-transform:capitalize;
     font-family: 'roboto', cursive;
     margin-bottom: 3rem;
 }
@@ -347,10 +344,10 @@ html {
 }
 
 footer {
-    height: 25px;
+    height: 20px;
     background-color: #df3213;
     color: rgb(255, 255, 255);
-    font-size: 1.4rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
